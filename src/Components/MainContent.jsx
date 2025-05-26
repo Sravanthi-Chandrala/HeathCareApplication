@@ -4,7 +4,7 @@ import RightSection from './RightSection';
 
 const MainContent = () => {
   return (
-    <div className="flex h-full overflow-y-auto">
+    <div className="flex flex-col lg:flex-row h-full overflow-y-auto">
       <LeftSection />
       <RightSection />
     </div>
